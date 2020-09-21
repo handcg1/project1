@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+}
+
+.navlinks {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(190,203,220);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#name {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    flex-grow: 1;
+    font-size: 1em;
+    font-family: 'Alegreya SC';font-size: 22px;
+}
+
+.navlink > a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    padding-right: 30px;
+    font-family: 'Alegreya SC';font-size: 18px;
+}
+
+.navlink > a:hover {
+    background-color: rgba(80,80,80,0.3);
+}
+
+main {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 100vh;
+}
+
+#profile-pic {
+    flex-grow: 0;
+    flex-basis: 300px;
+}
+
+#root {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 100vh;
+  }
+  
+  #left {
+    font-size: 4em;
+    flex-grow: 0;
+    flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkorange;
+  }
+  
+  #left > div:nth-child(3) {
+    flex-grow: 1;
+  }
+  
+  #right {
+    flex-basis: 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+  }
+  
+  #right > img {
+    flex-grow: 1;
+    object-fit: cover;
+    margin: 0 5px 5px 0;
+  }
