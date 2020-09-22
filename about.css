@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+nav > ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  margin-top: 20px;
+}
+
+nav > ul > li {
+  padding-right: 20px;
+}
+
+.nav-link > a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+}
+
+a:hover {
+  color: rgba(149,26,47);
+  fill: rgba(149,26,47);
+}
+
+#name {
+  font-size: 2em;
+  padding: 5px;
+  color: rgba(149,26,47);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 90vh;
+    background-color: rgb(219, 229, 238,0.4);
+}
+
+#profile-pic {
+    width: 400px;
+    object-fit: cover;
+    height:90vh;
+}
+
+#left {
+    font-size: 4em;
+    flex-grow: 0;
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkorange;
+  }
+  
+  #left > div:nth-child(3) {
+    flex-grow: 1;
+  }
+  
+  #right {
+    flex-basis: 0;
+    flex-grow: 1;
+    overflow-y: scroll;
+    margin: 10px;
+    margin-left: 20px;
+  }
+  
+
+  h1 {
+      font-family: sans-serif;
+      color: rgb(25, 37, 62);
+  }
+
+  #slogan {
+      font-size: 1.3em;
+  }
+
+  h2 {
+    font-family: sans-serif;
+    color: rgb(25, 37, 62);
+    padding-top: 10px;
+  }
+
+
+
+ #about {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+ }
+
+  #mu-logo {
+      height: 15vh;
+      padding: 10px;
+      border: black 2px solid;
+      border-radius: 20px;
+      background-color: rgb(190, 203, 220);
+
+  }
