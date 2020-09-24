@@ -92,16 +92,6 @@ main {
   }
 
 
-
- #about {
-   /*
-     display: flex;
-     flex-direction: row;
-     justify-content: center;
-     */
- }
-
-
  .left-picture {
    display: flex;
    flex-direction: row;

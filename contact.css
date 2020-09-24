@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+nav > ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  margin-top: 20px;
+}
+
+nav > ul > li {
+  padding-right: 20px;
+}
+
+.nav-link > a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+}
+
+a:hover {
+  color: rgba(149,26,47);
+  fill: rgba(149,26,47);
+}
+
+#name {
+  font-size: 2em;
+  padding: 5px;
+  color: rgba(149,26,47);
+}
+
+main {
+    height: 100vh;
+    background-color: rgb(219, 229, 238,0.5);
+    display: flex;
+    justify-content: center;
+    
+}
+
+#contact-info {
+    background-color: rgb(190, 203, 220);
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    width: 60vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.item {
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 1.7em;
+    color: rgb(25, 37, 62);
+    font-family: sans-serif;
+}
+
+.item > svg {
+    width: 40px;
+}
+
+#profile-pic {
+    height: 20vh;
+    border-radius: 40px;
+    margin-left: 50px;
+}
