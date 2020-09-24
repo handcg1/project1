@@ -123,3 +123,7 @@ main {
       background-color: rgb(190, 203, 220);
       margin: 20px;
   }
+
+  .padded-text {
+    padding-top: 35px;
+  }
