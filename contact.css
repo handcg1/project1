@@ -40,7 +40,7 @@ a:hover {
 }
 
 main {
-    height: 100vh;
+    height: 77vh;
     background-color: rgb(219, 229, 238,0.5);
     display: flex;
     justify-content: center;
@@ -80,4 +80,25 @@ ul {
     height: 20vh;
     border-radius: 40px;
     margin-left: 50px;
+    object-fit: cover;
+}
+
+.social-media-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > .social-media-links {
+  background-color: rgb(25, 37, 62,0.6);
+  margin: 0;
+  height: 100px;
+  width: 100vw;
+
+}
+
+.social-media-links > li {
+  padding: 10px;
+  
 }

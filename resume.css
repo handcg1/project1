@@ -39,5 +39,23 @@ a:hover {
   color: rgba(149,26,47);
 }
 
+.social-media-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > .social-media-links {
+  background-color: rgb(25, 37, 62,0.6);
+  margin: 0;
+  height: 100px;
+}
+
+.social-media-links > li {
+  padding: 10px;
+  
+}
+
 
 
