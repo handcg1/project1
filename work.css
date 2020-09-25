@@ -58,3 +58,19 @@ footer > .social-media-links {
   padding: 10px;
   
 }
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#summary {
+  width: 50vw;
+}
+
+#image-cover {
+  width: 854px;
+  height: 400px;
+  background-color: yellow;
+}
