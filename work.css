@@ -142,7 +142,7 @@ footer > .social-media-links {
   position: relative;
   margin: 10px;
   overflow: visible;
-  margin-bottom: 250px;
+  margin-bottom: 350px;
   text-decoration: none;
   color: black;
 }
@@ -158,7 +158,7 @@ footer > .social-media-links {
 
   position: absolute;
   right:0;
-  left: 20%;
+  left: 15%;
   top: 70%;
   padding: 20px;
   padding-top: 0px;
@@ -179,19 +179,19 @@ font-weight: 300;
 }
 
 .textt > p {
-  font-family: 'Poppins';
+font-family: 'Poppins';
 font-family: 'Roboto Condensed';
 font-family: 'Source Sans Pro';
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1160px) {
   .article {
-    margin-bottom: 350px;
+    margin-bottom: 450px;
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 950px) {
   .article {
-    margin-bottom: 500px;
+    margin-bottom: 550px;
   }
 }
