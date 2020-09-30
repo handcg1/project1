@@ -2,6 +2,7 @@ body {
     margin: 0;
 }
 
+/* Nav Bar CSS */
 nav {
   display: flex;
   flex-direction: row;
@@ -56,6 +57,82 @@ footer > .social-media-links {
   padding: 10px;
   
 }
+
+/* List CSS */ 
+.list {
+  list-style-type: none;
+}
+
+.list > li {
+  border: 4px solid rgb(25, 37, 62);
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 700px;
+  width: 100%;
+}
+
+/* List Items CSS */
+.list > li > h2 {
+  padding-bottom: 2px;
+  border-bottom: solid 1px black;
+  width: 10em;
+}
+
+.item-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.arrow-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.arrow-container > svg {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.arrow-container > svg:hover {
+  fill: rgba(149,26,47);
+}
+
+/* Information CSS */
+#list-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info-card {
+  width: 30%;
+  background-color: blue;
+
+  transition-property: transform, opacity;
+  transition-timing-function: all linear;
+  transition-duration: 3s, 2s;
+
+  /* transition: transform 3s ease-in-out; */
+  transform: translateX(-50%);
+  opacity: 1;
+
+}
+
+#arrow2 {
+  transform: rotate(180deg) scale(1.5);
+}
+
+.info-card.visible {
+    transform: translateX(15%);
+}
+
+.info-card.hidden {
+  transform: translateX(-50%);
+  opacity: 0;
+}
+
 
 
 

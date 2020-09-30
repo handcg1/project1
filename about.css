@@ -84,7 +84,7 @@ main {
       color: rgb(25, 37, 62);
   }
 
-  #slogan {
+  .slogan {
       font-size: 1.3em;
   }
 
@@ -94,13 +94,14 @@ main {
     padding-top: 10px;
   }
 
-
+/*
  .left-picture {
    display: flex;
    flex-direction: row;
    margin: 20px;
  }
 
+ 
  .right-picture {
    display: flex;
    flex-direction: row;
@@ -116,9 +117,35 @@ main {
       background-color: rgb(190, 203, 220);
       margin: 20px;
   }
+  */
 
+  .left-picture {
+    display: flex;
+    flex-direction: row;
+  }
+
+  
+  .logo {
+    width: 90%;
+    padding: 20px;
+  }
+  
+
+  .image-container {
+    width: 50%;
+    object-fit: contain;
+  }
+
+  /*
   .padded-text {
     padding-top: 35px;
+  }
+  */
+
+  .text-container {
+    background-color: rgb(190, 203, 220);
+    padding: 10px;
+    width: 50%;
   }
 
   .social-media-links {
