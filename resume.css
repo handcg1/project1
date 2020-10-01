@@ -58,7 +58,83 @@ footer > .social-media-links {
   
 }
 
-/* List CSS */ 
+/*    
+#divMenu, ul, li, li li {  
+  margin: 0;  
+  padding: 0;  
+}  
+*/
+
+.main-list > li {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+ 
+#divMenu {  
+ width: 30%;
+}  
+ 
+.main-list-item {  
+      list-style: none;  
+      position: relative;  
+      background: red;  
+      border-radius: 5px;
+  }  
+ 
+.info {  
+      list-style: none;  
+      position: relative;  
+      background: #641b1b;  
+      /* left: 600px;   dynamically set left to be more than parent 
+      top: -27px;  
+      */
+      padding: 10px;
+      color: white;
+  }  
+ 
+ /*
+  #divMenu ul li a {  
+      width: 148px;  
+      height: 25px;  
+      display: block;  
+      text-decoration: none;  
+      text-align: center;  
+      font-family: Georgia,'Times New Roman',serif;  
+      color:#ffffff;  
+      border:1px solid #eee;  
+  }  
+  */
+  
+  .header{
+    font-size: 2em;
+  }
+ 
+  #divMenu ul ul {  
+      position: absolute; 
+      left: 200%; 
+      visibility: hidden;  
+      top: 27px;  
+  }  
+ 
+  #divMenu ul li:hover ul {  
+      visibility: visible;  
+  }  
+ 
+  #divMenu li:hover {  
+      background-color: #945c7d;  
+  }  
+ 
+  #divMenu ul li:hover ul li a:hover {  
+      background-color: #945c7d;  
+  }  
+ 
+  .header:hover{
+    font-weight: bold;  
+  }
+
+
+
+/* List CSS 
 .list {
   list-style-type: none;
 }
@@ -69,14 +145,11 @@ footer > .social-media-links {
   padding: 10px;
   max-width: 700px;
   width: 100%;
+  margin-bottom: 20px;
+  color: rgb(25, 37, 62);
 }
 
-/* List Items CSS */
-.list > li > h2 {
-  padding-bottom: 2px;
-  border-bottom: solid 1px black;
-  width: 10em;
-}
+/* List Items CSS 
 
 .item-container{
   display: flex;
@@ -100,7 +173,11 @@ footer > .social-media-links {
   fill: rgba(149,26,47);
 }
 
-/* Information CSS */
+#arrow {
+  transition: transform 1s linear;
+}
+
+/* Information CSS 
 #list-container {
   display: flex;
   justify-content: space-evenly;
@@ -108,21 +185,16 @@ footer > .social-media-links {
 
 .info-card {
   width: 30%;
-  background-color: blue;
-
+  height: 20%;
   transition-property: transform, opacity;
   transition-timing-function: all linear;
   transition-duration: 3s, 2s;
-
-  /* transition: transform 3s ease-in-out; */
+  /* transition: transform 3s ease-in-out; 
   transform: translateX(-50%);
   opacity: 1;
 
 }
 
-#arrow2 {
-  transform: rotate(180deg) scale(1.5);
-}
 
 .info-card.visible {
     transform: translateX(15%);
@@ -133,6 +205,20 @@ footer > .social-media-links {
   opacity: 0;
 }
 
+#card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background-color: rgb(190, 203, 220);
+  padding: 20px;
+}
 
+#card > img {
+ width: 40%;
+
+}
+
+*/
 
 
