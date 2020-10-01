@@ -70,27 +70,49 @@ footer > .social-media-links {
   padding: 10px;
 }
  
+.main-list {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+#second-row {
+  position: relative;
+}
+
 #divMenu {  
  width: 30%;
 }  
  
 .main-list-item {  
       list-style: none;  
-      position: relative;  
-      background: red;  
+      /* position: relative;   */
+      background-color: rgb(219, 229, 238);  
       border-radius: 5px;
   }  
+
+
+  .main-list-item > ul {
+     padding: 10px; 
+  }
+
+  #second-row > li {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
  
+  /*
 .info {  
-      list-style: none;  
+      /* list-style: none;   
       position: relative;  
-      background: #641b1b;  
+      */
       /* left: 600px;   dynamically set left to be more than parent 
       top: -27px;  
-      */
+      
       padding: 10px;
-      color: white;
+
   }  
+  */
  
  /*
   #divMenu ul li a {  
@@ -107,30 +129,65 @@ footer > .social-media-links {
   
   .header{
     font-size: 2em;
+    margin: 0;
+    margin-top: 5px;
   }
- 
+
+ .sub-header {
+   font-size: 1.5em;
+   margin: 0;
+   margin-bottom: 5px;
+  }
+
+  #divMenu li:hover .header { 
+    font-weight: bold;   
+  }  
+
+#divMenu li:hover .sub-header{ 
+  font-weight: bold;
+}
+
+.info {
+  font-size: 1.2em;
+  padding: 5px;
+}
+
+
   #divMenu ul ul {  
       position: absolute; 
-      left: 200%; 
+      left: 150%; 
       visibility: hidden;  
+      width: 80%;
+      max-width: 500px;
       top: 27px;  
+      background-color: rgb(219, 229, 238);
+      padding: 40px;
+      border-radius: 10px;
+      margin-bottom: 20px;
   }  
+
+
+  
+  .image-container {
+    text-align: center;
+  }
+
+   .image {
+    width: 100%;
+    padding-bottom: 20px;
+    border-radius: 5px;
+  }
+
  
   #divMenu ul li:hover ul {  
       visibility: visible;  
   }  
  
   #divMenu li:hover {  
-      background-color: #945c7d;  
+    background-color: rgb(25, 37, 62,0.7);
+
   }  
  
-  #divMenu ul li:hover ul li a:hover {  
-      background-color: #945c7d;  
-  }  
- 
-  .header:hover{
-    font-weight: bold;  
-  }
 
 
 
