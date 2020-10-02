@@ -184,7 +184,8 @@ footer > .social-media-links {
   }  
  
   #divMenu li:hover {  
-    background-color: rgb(25, 37, 62,0.7);
+    /* background-color: rgb(25, 37, 62,0.7); */
+    background-color: rgba(149,26,47);
 
   }  
  
