@@ -128,19 +128,41 @@ footer > .social-media-links {
       border:1px solid #eee;  
   }  
   */
+
+  main > a {
+    text-decoration-color: rgba(149,26,47);
+  }
+  #button {
+    /* background-color: rgb(25, 37, 62); */
+    color: rgb(25, 37, 62);
+    /* margin-left: 40px; */
+    margin: 0 auto; 
+    margin-top: -30px;
+    max-width: 150px;
+    /* width: 15vw; */
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    /* font-size: 1.4em; */
+    border-radius: 5px;
+  }
   
+  #button:hover{
+    color: rgba(149,26,47);
+  }
+
   .header {
     font-size: 2em;
     margin: 0;
     margin-top: 5px;
-    color: rgb(25, 37, 62);
+    /* color: rgb(25, 37, 62); */
   }
 
  .sub-header {
    font-size: 1.5em;
    margin: 0;
    margin-bottom: 5px;
-   color: rgb(25, 37, 62);
+   /* color: rgb(25, 37, 62); */
   }
 
 
