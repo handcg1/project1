@@ -39,6 +39,60 @@ a:hover {
   color: rgba(149,26,47);
 }
 
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+}
+
+#profile-pic {
+  width: 40vw;
+  height: 80vh;
+  object-fit: cover;
+  object-position: right;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#text {
+  background-color: rgb(190, 203, 220);
+  padding: 10px;
+  height: 30vh;
+  width: 40vw;
+  margin-left: -80px;
+  font-family: sans-serif;
+  padding: 30px;
+}
+
+#text > h1 {
+  color: rgb(25, 37, 62);
+}
+
+#text > a {
+  text-decoration: none;
+}
+
+.button {
+  text-align: center;
+  background-color: rgb(25, 37, 62);
+  color: white;
+  padding: 20px;
+  width: 150px;
+  margin-top: 30px;
+}
+
+.button:hover {
+  background-color: rgba(149,26,47);
+}
+
+/* 
+
 main {
     display: flex;
     flex-direction: row;
@@ -117,7 +171,7 @@ main {
       background-color: rgb(190, 203, 220);
       margin: 20px;
   }
-  */
+  
 
   .left-picture {
     display: flex;
@@ -140,7 +194,7 @@ main {
   .padded-text {
     padding-top: 35px;
   }
-  */
+ 
 
   .text-container {
     background-color: rgb(190, 203, 220);
@@ -166,3 +220,5 @@ main {
     padding: 10px;
     
   }
+
+   */
