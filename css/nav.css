@@ -1,7 +1,6 @@
 body {
     margin: 0;
 }
-
 nav {
   display: flex;
   flex-direction: row;
@@ -37,4 +36,10 @@ a:hover {
   font-size: 2em;
   padding: 5px;
   color: rgba(149,26,47);
+}
+.social-media-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,43 +1,4 @@
-body {
-    margin: 0;
-}
 
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 20px;
-}
-
-nav > ul {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  margin: 15px;
-  margin-top: 20px;
-}
-
-nav > ul > li {
-  padding-right: 20px;
-}
-
-.nav-link > a {
-  display: block;
-  text-decoration: none;
-  color: black;
-  font-size: 1.2em;
-}
-
-a:hover {
-  color: rgba(149,26,47);
-  fill: rgba(149,26,47);
-}
-
-#name {
-  font-size: 2em;
-  padding: 5px;
-  color: rgba(149,26,47);
-}
 
 main {
   display: flex;
@@ -60,12 +21,54 @@ main {
   font-family: sans-serif;
 }
 
+#contact-info {
+  font-family: sans-serif;
+  margin-bottom: 40px;
 
-.square {
-  height: 100px;
-  width: 100px;
 }
 
+/* .square {
+  height: 100px;
+  width: 100px;
+} */
+
+ .email {
+  display: flex; 
+  align-items: center;
+  margin: 10px;
+  height: 50px;
+
+} 
+.block {
+  width: 50px;
+  height: 50px;
+}
+
+
+.red {
+  background-color: rgb(149,26,47);
+}
+
+.blue {
+  background-color: rgb(25, 37, 62);
+}
+
+.light-blue {
+  background-color: rgb(190, 203, 220);
+}
+
+
+.email > a {
+  color: black;
+}
+
+.contact-text {
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+
+/* 
 .text {
   justify-self: center;
   align-self: center;
@@ -82,7 +85,7 @@ main {
 
 #linkedin {
   background-color: rgb(190, 203, 220);
-}
+} */
 
 #form {
   width: 50vw;
@@ -135,6 +138,7 @@ main {
   font-family: sans-serif;
 }
 
+
 /*
 main {
     height: 77vh;
@@ -184,7 +188,7 @@ ul {
 
 
 
-
+/*
 .social-media-links {
   display: flex;
   flex-direction: row;
@@ -204,3 +208,4 @@ footer > .social-media-links {
   padding: 10px;
   
 }
+*/
