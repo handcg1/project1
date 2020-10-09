@@ -2,28 +2,6 @@ body {
     margin-left: 10px;
 }
 
-/* Footer CSS 
-.social-media-links {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-footer > .social-media-links {
-  background-color: rgb(25, 37, 62,0.6);
-  margin: 0;
-  height: 100px;
-}
-
-.social-media-links > li {
-  padding: 10px;
-  
-}
-*/
-
-/* Main body CSS */ 
-
 /* Centers all text and images */
 .articles {
   display: flex;
@@ -38,59 +16,6 @@ footer > .social-media-links {
 .article-text {
   max-width: 828px;
 }
-
-
-/* Overlay CSS 
-.container{
-  position: relative;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  height: 100%;
-  width: 0%;
-  background-color: transparent;
-  transition-property: width;
-  transition-duration: 1s;
-  transition-timing-function: linear;
-  text-align: center;
-  box-sizing: border-box;
-  color: transparent;
-}
-
-#text{
-  font-size: 1.3em;
-  font-family: sans-serif;
-  text-align: right;
-  padding-right: 10px;
-  padding-top: 30px;
-}
-
-#arrow {
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
-  display: none;
-  padding-left: 30px;
-  padding-right: 40px;
-  transform: scale(2);
-}
-
-.container:hover #text{
-  color:white;
-}
-
-.container:hover #arrow{
-      display: inline;
-}
-
-.container:hover .overlay {
-  background-color: rgb(25, 37, 62);
-  width: 100%;
-}
-*/
 
 /* Box Idea */ 
  
@@ -117,8 +42,6 @@ footer > .social-media-links {
 
 .textt {
   background-color: white;
-  /* background-color: rgb(190,203,220); */
-
   position: absolute;
   right:0;
   left: 15%;
