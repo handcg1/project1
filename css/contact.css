@@ -75,15 +75,18 @@ main {
   padding-bottom: 20px;
   border-radius: 3px;
   background-color: #f6f6f6;
-
-  
 }
 
-.label > input {
+.label > input, textarea {
   border: none; 
   background: none;
   outline: none;
   padding: 0;
+}
+
+#message {
+  height: 200px; 
+  resize: none;
 }
 
 .label > span {
@@ -102,11 +105,11 @@ main {
   color: rgb(149,26,47);
 }
 
-#form > button {
+#submit {
   padding: 10px;
   margin-top: 30px;
 }
 
-#form > h2 {
+form > h2 {
   font-family: sans-serif;
 }
