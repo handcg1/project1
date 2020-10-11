@@ -9,16 +9,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/nav.css">
+    <script defer src="js/nav.js"> </script>
     <link rel="icon" type="image/png" sizes="32x32" href="images/icon.png">
     <script defer src="js/contact.js"> </script>
 </head>
 
 <body>
     <header>
-        <nav>
-            <div id="name"> John Hand </div>
+        <!-- <div class="name mobile"> John Hand </div> -->
 
-            <ul class="nav-links">
+        <nav>
+             <div class="name"> John Hand </div> 
+
+             <svg id="hamburger-btn" viewBox="0 0 100 80">
+                <rect> </rect>
+                <rect y="30"> </rect>
+                <rect y="60"> </rect>
+            </svg>
+
+            <ul id="nav-links">
                 <li class="nav-link"> <a href="index.html">About John</a></li>
                 <li class="nav-link"> <a href="contact.html">Contact</a></li>
                 <li class="nav-link"> <a href="resume.html">Resume</a></li>
@@ -42,7 +51,9 @@
                     </a></li>
                 </li>
             </ul>
+
         </nav>
+
     </header>
 
     <main>
@@ -91,14 +102,6 @@
 
         
             <h2> Contact Me </h2>
-            <!-- <label class="label">
-                <span> First Name </span>
-                <input id="f-name" type="text">
-            </label>
-            <label class="label">
-                <span> Last Name </span>
-                <input id="l-name" type="text">
-            </label> -->
             <label class="label">
                 <span> Subject </span>
                 <input id="subject" type="text">
@@ -106,7 +109,7 @@
 
             <label class="label">
                 <span> Message </span>
-                <textarea id="message" type="text"> </textarea>
+                <textarea id="message" type="text"></textarea>
             </label>
 
             <button id="submit"> Submit </button>

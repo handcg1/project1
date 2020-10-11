@@ -9,15 +9,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/nav.css">
+    <script defer src="js/nav.js"> </script>
     <link rel="icon" type="image/png" sizes="32x32" href="images/icon.png">
 </head>
 
 <body>
     <header>
         <nav>
-            <div id="name"> John Hand </div>
+            <div class="name"> John Hand </div>
 
-            <ul class="nav-links">
+            <svg id="hamburger-btn" viewBox="0 0 100 80">
+                <rect> </rect>
+                <rect y="30"> </rect>
+                <rect y="60"> </rect>
+            </svg>
+
+            <ul id="nav-links">
                 <li class="nav-link"> <a href="index.html">About John</a></li> 
                 <li class="nav-link"> <a href="contact.html">Contact</a></li>
                 <li class="nav-link"> <a href="resume.html">Resume</a></li>

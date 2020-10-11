@@ -10,15 +10,22 @@
         <link rel="stylesheet" href="css/video.css">
         <link rel="stylesheet" href="css/nav.css">
         <script defer src="js/video.js"> </script>
+        <script defer src="js/nav.js"> </script>
         <link rel="icon" type="image/png" sizes="32x32" href="images/icon.png">
     </head>
     <body>
 
         <header>
             <nav>
-                <div id="name"> John Hand </div>
+                <div class="name"> John Hand </div>
+
+                <svg id="hamburger-btn" viewBox="0 0 100 80">
+                    <rect> </rect>
+                    <rect y="30"> </rect>
+                    <rect y="60"> </rect>
+                </svg>
         
-                <ul class="nav-links">
+                <ul id="nav-links">
                     <li class="nav-link"> <a href="index.html">About John</a></li>
                     <li class="nav-link"> <a href="contact.html">Contact</a></li>
                     <li class="nav-link"> <a href="resume.html">Resume</a></li>
