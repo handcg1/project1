@@ -81,3 +81,30 @@ font-family: 'Source Sans Pro';
     margin-bottom: 550px;
   }
 }
+
+@media (max-width: 820px ) {
+
+  .row {
+    flex-direction: column;
+  }
+
+  .article {
+    margin-bottom: 10px;
+
+  }
+
+  .textt {
+    position: relative;
+    left: 10%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: -80px;
+    width: 90%;
+    right: 100%;
+  }
+
+  .img {
+    width: 100%;
+  }
+}
+
