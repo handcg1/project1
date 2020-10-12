@@ -125,13 +125,18 @@
      display: none; 
    }
 
-   #divMenu li:hover {  
+    #divMenu li:hover {  
      background-color: rgb(219, 229, 238);
-  }  
+  } 
+  
+  .active {
+    display: block;
+  }
  
-  #divMenu ul li:hover ul {  
+  /* #divMenu ul li:hover ul {  
     display: block; 
-}  
+}   */
+
 
 
    /* .main-list-item {
