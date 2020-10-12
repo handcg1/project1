@@ -15,11 +15,11 @@ main {
   object-position: right;
 }
 
-#container {
+/* #container {
   display: flex;
   flex-direction: row;
   align-items: center;
-}
+} */
 
 #text {
   background-color: rgb(190, 203, 220);
@@ -60,6 +60,8 @@ main {
 
   main {
     flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
     /* margin-top: -100px;  */
   }
 
@@ -75,8 +77,15 @@ main {
 
   #text {
     margin: 0;
-    padding-top: 5px;
-    width: 80vw;
+    /* padding: 5px; */
+    width: 90%;
+  }
+
+  .button {
+    margin: 0;
+    left: 0;
+    width: 100%;
+    margin-left: -20px;
   }
 
 }
