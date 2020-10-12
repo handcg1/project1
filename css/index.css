@@ -47,6 +47,7 @@
 
  #container {
     flex-direction: column;
+    margin-top: 0;
   }
 
   #profile-pic {
@@ -61,5 +62,6 @@
     margin: 0;
     box-sizing: border-box;
     margin-top: -5px;
+    padding-top: 10px;
   }
 }
