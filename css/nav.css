@@ -80,7 +80,7 @@ a:hover {
     /* display: flex;
     flex-direction: row;
     justify-content: space-between; */
-    /* position: sticky; */
+    position: relative; 
     left: 0;
     right: 0;
     top: 0;

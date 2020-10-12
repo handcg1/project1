@@ -10,7 +10,7 @@
 
 #second-row {
   position: relative;
-}
+} 
 
 #divMenu {  
  width: 30%;
@@ -23,7 +23,6 @@
       border-radius: 5px;
       box-shadow: 2px 2px 2px 2px #999999;
   }  
-
 
   .main-list-item > ul {
      padding: 10px; 
@@ -39,19 +38,10 @@
   main > a {
     text-decoration-color: rgba(149,26,47);
   }
+
   #button {
-
     color: rgb(25, 37, 62);
- 
-    margin: 0 auto; 
-    margin-top: -30px;
-    max-width: 150px;
-
-    padding: 15px;
-    box-sizing: border-box;
     text-align: center;
-
-    border-radius: 5px;
   }
   
   #button:hover{
@@ -73,7 +63,7 @@
   }
 
 
-  #divMenu li:hover .header { 
+#divMenu li:hover .header { 
     font-weight: bold;   
   }  
 
@@ -99,8 +89,6 @@
       border-radius: 10px;
       margin-bottom: 20px;
   }  
-
-
   
   .image-container {
     text-align: center;
@@ -112,7 +100,6 @@
     border-radius: 5px;
   }
 
- 
   #divMenu ul li:hover ul {  
       visibility: visible;  
   }  
@@ -121,4 +108,51 @@
     background-color: rgba(149,26,47);
   }  
  
+@media (max-width: 785px){
 
+
+  .main-list { 
+    z-index: 1;
+  }
+
+  .main-list-item {
+    position: relative;
+    z-index: 3;
+  }
+
+  #divMenu ul li:hover ul {
+    position: relative;  
+    z-index: 3;  
+}  
+
+  #divMenu ul ul { 
+    /* display: none;  */
+    
+    left: 0; 
+    top: 100%;
+    right: 100%;
+    
+
+
+    /* left: 150%; 
+    visibility: hidden;  
+    width: 80%;
+    max-width: 500px;
+    top: 27px;  
+    background-color: rgb(219, 229, 238);
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px; */
+  }
+
+  #divMenu {  
+    width: 100%;
+   }  
+
+   .main-list {
+     padding: 15px;
+   }
+
+
+
+}
