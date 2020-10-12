@@ -1,7 +1,6 @@
 main > h1, h3 {
   text-align: center;
   margin: 20px;
-  /* color: rgb(25, 37, 62); */
 }
 
  #grid-container {
@@ -29,7 +28,7 @@ main > h1, h3 {
   font-family: sans-serif;
 }
 
-#grid-container > a {
+.button1, #button2 {
   background-color: rgb(25, 37, 62);
   color: white;
   text-decoration: none;
@@ -54,4 +53,49 @@ main > h1, h3 {
   grid-column-start: 2;
   align-self: flex-end;
   margin-top: 70px;
+}
+
+.mobileText {
+  display: none;
+}
+
+@media (max-width: 720px) {
+
+  #grid-container {
+    display: block;
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+  }
+
+  #grid-container > img {
+    border: none;
+    height: 40vh;
+    object-position: top;
+    
+  }
+
+  .mobileText, #button2 { 
+    display: block;
+    background-color: rgb(25, 37, 62);
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+
+  #button2 {
+    margin: 0 auto;
+  }
+
+  .button1, .text{
+    display: none;
+  }
+
+
+
+
 }

@@ -84,6 +84,7 @@ font-family: 'Source Sans Pro';
 
 @media (max-width: 820px ) {
 
+
   .row {
     flex-direction: column;
   }
