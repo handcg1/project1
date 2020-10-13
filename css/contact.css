@@ -10,14 +10,10 @@ main {
   margin: 10px;
   height: 50px;
 } 
-.block {
+
+.square {
   width: 50px;
   height: 50px;
-}
-
-.mobile {
-  display: none !important;
-  font-size: 1.5em;
 }
 
 .red {
@@ -94,48 +90,28 @@ main > h2 {
 
 
 @media (max-width: 520px) {
+.square {
+    width: 20px;
+    height: 20px;
+}
 
-  .contact {
-    display: none;
-  }
+.contact-text {
+  font-size: 1.2em;
+}
 
- .mobile {
-    display: block !important;
-    margin-top: 10px;
-    list-style: none;
-  }
+.contact {
+  margin: 0;
+}
 
-  .mobile li::before {
-    content: "\2022";
-    font-size: 1.5em;
-    display: inline-block; 
-    width: .7em;
-    margin-left: -1em;
-  }
-
-  .mobile li:nth-child(1)::before {
-    color: rgb(149,26,47);
-  }
-
-  .mobile li:nth-child(2)::before {
-    color: rgb(25, 37, 62);
-  }
-
-  .mobile li:nth-child(3)::before {
-    color: rgb(190, 203, 220);
-  }
-
-
- main {
+main {
    margin: 20px;
- }
+}
 
- main > h2 {
+main > h2 {
   margin-top: 30px;
 }
 
 #submit {
-  font-size: 1.5em;
   width: 100%;
 }
 

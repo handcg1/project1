@@ -4,7 +4,6 @@
   margin-top: 20px;
   justify-content: center;
   align-items: center; 
-  
 }
 
 #profile-pic {
@@ -14,8 +13,7 @@
   object-position: right;
 }
 
-
-#text {
+#bio {
   background-color: rgb(190, 203, 220);
   width: 40vw;
   margin-left: -80px; 
@@ -23,7 +21,7 @@
   padding: 30px;
 }
 
-#text > h1 {
+#bio > h1 {
   color: rgb(25, 37, 62);
 }
 
@@ -54,10 +52,9 @@
     width: 100vw;
     height: 25vh; 
     object-fit: cover;
-    
   }
 
-  #text {
+  #bio {
     width: 100vw;
     margin: 0;
     box-sizing: border-box;

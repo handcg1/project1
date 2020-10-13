@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>John Hand</title>
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/resume.css">
     <link rel="stylesheet" href="css/nav.css">
@@ -17,12 +16,12 @@
 <body>
     <header>
         <nav>
-            <div class="name"> John Hand </div>
+            <div class="title"> John Hand </div>
 
             <svg id="hamburger-btn" viewBox="0 0 100 80">
-                <rect> </rect>
-                <rect y="30"> </rect>
-                <rect y="60"> </rect>
+                <rect height="15" width="100"> </rect>
+                <rect height="15" width="100" y="30"> </rect>
+                <rect height="15" width="100" y="60"> </rect>
             </svg>
 
             <ul id="nav-links">
@@ -47,7 +46,6 @@
                                 d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                             </svg>
                     </a></li>
-                </li>
             </ul>
         </nav>
     </header>
@@ -63,7 +61,8 @@
                 <p class="header"> Education <p>
                 <p class="sub-header"> Marquette University, Milwaukee, WI</p>
                 <ul class="content">    
-                    <div class="image-container"><img class="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Marquette_Golden_Eagles_logo.svg/1200px-Marquette_Golden_Eagles_logo.svg.png"></div>
+                    <li> <img class="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Marquette_Golden_Eagles_logo.svg/1200px-Marquette_Golden_Eagles_logo.svg.png"
+                    alt="Marquette University logo"></li>
                     <li class="info"> Graduated in May 2019 </li>    
                     <li class="info"> Received a Bachelor of Arts in Journalism</li>    
                     <li class="info"> Received a minor in Digital Media and History </li> 
@@ -74,7 +73,8 @@
                     <p class="header"> Boston Globe <p> 
                     <p class="sub-header"> High School Sports Correspondent </p> 
                     <ul class="content">    
-                    <div class="image-container"> <img class="image" src="https://www.bostonglobe.com/pf/resources/images/logo-bg.jpg?d=201"> </div>
+                    <li><img class="image" src="https://www.bostonglobe.com/pf/resources/images/logo-bg.jpg?d=201"
+                    alt="Boston Globe logo"></li>
                     <li class="info"> Write feature stories on Massachusetts high school athletes</li>    
                     <li class="info"> Cover a variety of high school games</li>    
                     <li class="info"> Receive sports scores for high school sports' desk </li>    
@@ -83,7 +83,8 @@
                     <p class="header"> Frontline PBS <p>
                     <p class="sub-header"> Intern </p> 
                     <ul class="content">    
-                    <div class="image-container"> <img class="image" src="https://www.pbs.org/wgbh/frontline/wp-content/themes/fl-responsive-theme/library/images/frontline_logo_og.png"> </div>
+                    <li><img class="image" src="https://www.pbs.org/wgbh/frontline/wp-content/themes/fl-responsive-theme/library/images/frontline_logo_og.png"
+                    alt="Frontline logo"></li>
                     <li class="info"> Assisted reporter Katie Worth with research for her climate change education project</li>    
                     <li class="info">Developed story ideas centered around climate change for Frontline’s website</li>    
                     <li class="info">Reported on stories on climate change for Frontline’s website</li>    
@@ -92,7 +93,7 @@
                     <p class="header"> Associated Press <p>
                     <p class="sub-header"> Freelance Reporter/Quote Runner </p> 
                     <ul class="content">    
-                        <div class="image-container"> <img class="image" src="https://ballparkdigest.com/wp-content/uploads/2019/11/brewers-logo-2020-2.jpg"> </div>
+                        <li><img class="image" src="https://ballparkdigest.com/wp-content/uploads/2019/11/brewers-logo-2020-2.jpg"> </li>
                         <li class="info"> Assisted reporter Katie Worth with research for her climate change education project</li>    
                         <li class="info">Developed story ideas centered around climate change for Frontline’s website</li>    
                         <li class="info">Reported on stories on climate change for Frontline’s website</li>    
@@ -102,7 +103,8 @@
                     <p class="header"> O'Brien Fellowship <p>  
                     <p class="sub-header"> Intern </p> 
                     <ul class="content">    
-                    <div class="image-container"> <img class="image" src="https://mediad.publicbroadcasting.net/p/prndi/files/styles/x_large/public/201811/diederich_obrien_high_res-01.jpg"></div>
+                    <li> <img class="image" src="https://mediad.publicbroadcasting.net/p/prndi/files/styles/x_large/public/201811/diederich_obrien_high_res-01.jpg"
+                    alt="Diederich College of Communication O'Brien Fellowship Scholorship logo"> </li>
                     <li class="info">Assisted Frontline PBS Reporter Katie Worth on Climate Change in the Classroom</li>    
                     <li class="info">Researched information about educational standards, the textbook industry and climate change</li>    
                     <li class="info">Developed potential supplemental stories</li>  
@@ -110,69 +112,75 @@
                 </ul></li>    
 
 
-                <div id="second-row"> 
-                <li class="main-list-item">
+                <!-- <div id="second-row">  -->
+                <li class="main-list-item" id="second-row">
                 <p class="header"> Milkwaukee Magazine <p>
                 <p class="sub-header"> Intern </p>
                  
                     <ul>    
-                    <div class="image-container"> <img class="image" src="https://images.squarespace-cdn.com/content/v1/56b2a179d51cd4f69f0dc6ff/1523552623211-J6AULX7VJD6I99EX1KMR/ke17ZwdGBToddI8pDm48kJV7MdDiyQG8VfKD2LAJdUEUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcFZ0b4gElCwJPu3CwXUzaj1O8Otm8F2rMUla-UjEAQDOUFXM9WvroF6uEhrE0JqQR/MM_Nameplate_FINAL_web.jpg"> </div>
+                    <li><img class="image" src="https://images.squarespace-cdn.com/content/v1/56b2a179d51cd4f69f0dc6ff/1523552623211-J6AULX7VJD6I99EX1KMR/ke17ZwdGBToddI8pDm48kJV7MdDiyQG8VfKD2LAJdUEUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcFZ0b4gElCwJPu3CwXUzaj1O8Otm8F2rMUla-UjEAQDOUFXM9WvroF6uEhrE0JqQR/MM_Nameplate_FINAL_web.jpg"
+                    alt="Milkwaukee Magazine logo"></li>
                     <li class="info">Wrote various stories for online publication about intriguing people, events and other happenings in Milwaukee</li>    
                     <li class="info">Fact-checked articles</li>    
                     <li class="info">Observed how a monthly magazine is put together</li>  
                 </ul>
             </li>
-            <li class="main-list-item">
+            <li class="main-list-item" id="second-row">
                 <p class="header"> CBS 58 <p>
                 <p class="sub-header"> Sports Intern </p>
                     <ul>    
-                    <div class="image-container"> <img class="image" src="https://newscdn2.weigelbroadcasting.com/OaEYL-1579891754-tile_image-156048.png"> </div>
+                    <li><img class="image" src="https://newscdn2.weigelbroadcasting.com/OaEYL-1579891754-tile_image-156048.png"
+                    alt="CBS 58 logo"></li>
                     <li class="info">Wrote various stories for online publication about intriguing people, events and other happenings in Milwaukee</li>    
                     <li class="info">Fact-checked articles</li>    
                     <li class="info">Observed how a monthly magazine is put together</li>  
                 </ul>
             </li>
-            <li class="main-list-item">
+            <li class="main-list-item" id="second-row">
                 <p class="header"> Milwaukee Brewing Company <p>
                 <p class="sub-header"> Social Media Intern </p>
                     <ul>    
-                    <div class="image-container"> <img class="image" src="https://findlogovector.com/wp-content/uploads/2020/02/milwaukee-brewing-company-logo-vector.png"> </div>
+                    <li><img class="image" src="https://findlogovector.com/wp-content/uploads/2020/02/milwaukee-brewing-company-logo-vector.png"
+                    alt="Milwaukee Brewing Company logo"></li>
                     <li class="info">Created and scheduled social media posts for multiple platforms, including Facebook, Twitter and Instagram</li>    
                     <li class="info">Wrote press releases, newsletters and blog posts about company events and news</li>    
                     <li class="info">Assisted with various company events</li>  
                 </ul>
             </li>
-            <li class="main-list-item">
+            <li class="main-list-item" id="second-row">
                 <p class="header"> OnMilwaukee <p>
                 <p class="sub-header"> Intern/Contributor </p>
                     <ul>    
-                    <div class="image-container"> <img class="image" src="https://onmilwaukee.com/images/articles/on/onmilwaukeelogo2015/onmilwaukeelogo2015_fullsize_story1.jpg"> </div>
+                    <li><img class="image" src="https://onmilwaukee.com/images/articles/on/onmilwaukeelogo2015/onmilwaukeelogo2015_fullsize_story1.jpg"
+                    alt="onMilwaukee logo"></li>
                     <li class="info">Wrote feature sport stories about various topics and notable people in Milwaukee</li>    
                     <li class="info">Created and hosted Brew City Conversations Podcast, interviewing various people in Milwaukee</li>    
                     <li class="info">Composed blog posts for events and news in Milwaukee</li>  
                 </ul>
             </li>
-            <li class="main-list-item">
+            <li class="main-list-item" id="second-row">
                 <p class="header"> WEEI.com <p>
                 <p class="sub-header"> Intern </p>
                     <ul>    
-                    <div class="image-container"> <img class="image" src="https://images.radio.com/weei/s3fs-public/WEEI_Header_Large_Logo.png"> </div>
+                    <li><img class="image" src="https://images.radio.com/weei/s3fs-public/WEEI_Header_Large_Logo.png"
+                    alt="WEEI logo"></li>
                     <li class="info">Wrote blog posts about breaking sports news, Boston Red Sox pitching matchups, interviews on sports talk radio 97.3 FM WEEI and Boston Red Sox farm reports</li>    
                     <li class="info">Conducted research, gathered statistics and conducted interviews for feature stories</li>    
                     <li class="info">Stayed current with sports news via Twitter and various websites to write relevant blog post</li>  
                 </ul>
             </li>
-            <li class="main-list-item">
+            <li class="main-list-item" id="second-row">
                 <p class="header"> NBC Sports Boston <p>
                 <p class="sub-header"> Intern </p>
                     <ul>    
-                    <div class="image-container"> <img class="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/NBC_Sports_2012.svg/1200px-NBC_Sports_2012.svg.png"> </div>
+                    <li><img class="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/NBC_Sports_2012.svg/1200px-NBC_Sports_2012.svg.png"
+                    alt="NBC logo"></li>
                     <li class="info">Clipped various game footage for editors to create highlights for programing</li>    
                     <li class="info">Logged interviews of players and coaches using AP ENPS</li>    
                     <li class="info">Shadowed both on-air and production personnel during their daily routines</li>  
                 </ul>
             </li>
-        </div>
+        <!-- </div> -->
 
         </ul>
         </div>
