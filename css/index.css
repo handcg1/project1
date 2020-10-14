@@ -21,23 +21,16 @@
   padding: 30px;
 }
 
-#bio > h1 {
-  color: rgb(25, 37, 62);
-}
+
 
 .button {
   display: inline-block;
   text-align: center;
-  background-color: rgb(25, 37, 62);
-  color: white;
+  /* background-color: rgb(25, 37, 62);
+  color: white; */
   padding: 20px;
   width: 200px;
   text-decoration: none;
-}
-
-.button:hover {
-  background-color: rgba(149,26,47);
-  color: white;
 }
 
 

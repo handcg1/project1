@@ -1,0 +1,16 @@
+.button {
+    background-color: rgb(25, 37, 62);
+    color: white;
+    padding: 20px;
+}
+
+.button:hover {
+    background-color: rgba(149,26,47);
+    color: white;
+  }
+
+.header{
+    color: rgb(25, 37, 62);
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Montserrat Alternates', sans-serif; 
+  }

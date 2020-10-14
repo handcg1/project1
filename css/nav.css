@@ -46,6 +46,8 @@ a:hover {
   color: rgba(149,26,47);
   margin-left: 10px;
   margin-bottom: 10px;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Montserrat Alternates', sans-serif; 
 }
 
 .social-media-links {

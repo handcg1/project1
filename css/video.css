@@ -1,59 +1,4 @@
 
-/* .wrapper {
-  width: 200px;
-  height: 200px;
-  margin: 15% auto;
-}
-
-.box-area {
-  animation: animate 10s ease-in-out infinite;
-  transform-style: preserve-3d;
-  transform-origin: 100px 100px 0;
-}
-
-.box-area div {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  line-height: 200px;
-}
-
-.box-area .box1 {
-  background-size: cover;
-  background-position: center center;
-  transform: translateZ(100px);
-}
-
-.box-area .box2 {
-  background-size: cover;
-  background-position: center center;
-  transform: rotateY(90deg) translateZ(100px);
-}
-
-.box-area .box3 {
-  background-size: cover;
-  background-position: center center;
-  transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
-}
-
-@keyframes animate{
-  from,to {
-    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-  }
-  16% {
-    transform: rotateY(-90deg);
-  }
-  33% {
-    transform: rotateY(-90deg) rotateZ(90deg);
-  }
-} */
-
- /* .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}  */
-
 .myslides > h2 {
   font-family: sans-serif;
   color: rgb(25, 37, 62);
@@ -62,9 +7,14 @@
 #dots {
   position: fixed;
   left: 50%;
-  top: 11%;
+  top: 15%;
   display: flex;
   margin: 0 20px 10px 0;
+}
+
+.header {
+  position: fixed;
+  left: 10%;
 }
 
 .dot {
@@ -77,12 +27,11 @@
 
 .myslides {
   transition: transform 2s ease-in-out;
-  /* width: 90vw; */
   position: fixed;
   left: 10%;
   right: 10%;
   bottom: 0;
-  top: 15%; 
+  top: 18%; 
 }
 
  .myslides:not(:first-child) {
@@ -115,16 +64,8 @@
 }
 
  .button {
-  /* height: 60%; */
   padding: 20px;
   margin: 10px;
-  background-color: rgb(25, 37, 62);
-  color: white;
-} 
-
-
-.button:hover{
-  background-color: rgba(149,26,47);
 } 
 
 @media (max-width: 700px) {
@@ -135,6 +76,9 @@
     left: 0;
     right: 0;
     margin: 10px;
+  }
+
+  #header {
   }
 
   .myslides:not(:first-child) {

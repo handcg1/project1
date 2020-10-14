@@ -17,11 +17,11 @@
 }  
  
 .main-list-item {  
-      list-style: none;  
+  list-style: none;  
 
-      background-color: rgb(219, 229, 238);  
-      border-radius: 5px;
-      box-shadow: 2px 2px 2px 2px #999999;
+  background-color: rgb(219, 229, 238);  
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px #999999;
   }  
 
   .main-list-item > ul {
@@ -114,6 +114,11 @@
 
    .main-list {
      padding: 15px;
+     margin-bottom: 0;
+   }
+
+   .main-list-item:last-child {
+     margin-bottom: 0;
    }
 
    #divMenu ul ul {
@@ -123,6 +128,11 @@
      display: none; 
    }
 
+   #second-row {
+     padding: 15px;
+     margin-top: 0;
+   }
+
     #divMenu li:hover {  
      background-color: rgb(219, 229, 238);
   } 
@@ -130,38 +140,6 @@
   .active {
     display: block;
   }
- 
-  /* #divMenu ul li:hover ul {  
-    display: block; 
-}   */
-
-
-
-   /* .main-list-item {
-      padding: 10px;
-      margin: 10px;
-      margin-bottom: 20px;
-   } 
-
-    #divMenu ul ul {  
-    max-height: 0;
-    visibility: visible; 
-    left: 0;
-    position: relative;
-    top: 100%;
-    display: block;
-    position: absolute;   
-    visibility: visible;  
-    width: 80%;
-    max-width: 500px;
-    top: 100%;  
-    left: 0;
-    background-color: rgb(219, 229, 238);
-    padding: 0px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}   */
-
 
 
   

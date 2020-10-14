@@ -29,8 +29,8 @@ main > h1, h3 {
 }
 
 .button1, #button2 {
-  background-color: rgb(25, 37, 62);
-  color: white;
+  /* background-color: rgb(25, 37, 62);
+  color: white; */
   text-decoration: none;
   padding: 15px;
   text-align: center;
@@ -44,10 +44,10 @@ main > h1, h3 {
   margin-top: -25px;
 }
 
-#grid-container > a:hover {
+/* #grid-container > a:hover {
   background-color: rgba(149,26,47);
   color: white;
-} 
+}  */
 
 #button2 {
   grid-column-start: 2;
