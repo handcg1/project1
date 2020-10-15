@@ -78,9 +78,6 @@
     margin: 10px;
   }
 
-  #header {
-  }
-
   .myslides:not(:first-child) {
     transform: unset;
   }  
