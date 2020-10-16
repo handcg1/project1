@@ -1,19 +1,13 @@
-
 main {
   margin: 40px;
-  font-family: sans-serif;
 }
 
- .contact {
+.contact {
   display: flex; 
   align-items: center;
-  margin: 10px;
+  margin-bottom: 10px;
   height: 50px;
 } 
-
-.header {
-  margin-bottom: 30px;
-}
 
 .square {
   width: 50px;
@@ -37,7 +31,8 @@ main {
 }
 
 main > h2 {
-  margin-top: 40px;
+  margin-top: 40px; 
+  font-family: sans-serif;
 }
 
 .contact-text {
@@ -46,7 +41,7 @@ main > h2 {
 }
 
 
-.label{
+.label {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
@@ -103,9 +98,9 @@ main > h2 {
   font-size: 1.2em;
 }
 
-.contact {
+ .contact {
   margin: 0;
-}
+} 
 
 main {
    margin: 20px;

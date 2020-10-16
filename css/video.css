@@ -34,6 +34,10 @@
   top: 18%; 
 }
 
+.myslides > p {
+  width: 90%;
+}
+
  .myslides:not(:first-child) {
   transform: translateX(200%);
 }  
